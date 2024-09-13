@@ -1,7 +1,7 @@
 public class typecasting {
     public static void main(String[] args) {
         //Without typecasting:
-        //float a = 10.0;
+        //float a = 10.0f;
         //int b = a;
         //with type casting;
         float a = 10.0f;
