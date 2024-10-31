@@ -1,11 +1,14 @@
 public class ar {
     public static void main(String[] args) {
-        int myItems = 50;
-        float myPricePerItem = 9.99f;
-        float totalCost = myItems * myPricePerItem;
-        char myCurrency = '$';
-        System.out.println("Total number of items is: " + myItems );
-        System.out.println("Total cost of items is: " + totalCost + myCurrency);
-        
+      int time = 24;
+      if (time < 12 ) {
+        System.out.println("Good Morning");
+      }
+      else if (time < 18) {
+        System.out.println("Good Day");
+      }
+      else {
+        System.out.println("Good Evening");
+      }
     }
 }
